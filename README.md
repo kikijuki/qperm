@@ -191,24 +191,28 @@ query advantage a real quantum device would give at scales where enumeration is 
 ## References
 
 Brassard, G., Hoyer, P., Mosca, M., and Tapp, A. (2002). Quantum amplitude amplification and
-estimation. Contemporary Mathematics, 305, 53-74.
+estimation. Contemporary Mathematics, 305, 53-74. https://doi.org/10.1090/conm/305/05215
 
 Chen, Y., Ma, P., and Zhong, W. (2026). Quantum statistical bootstrap. arXiv:2604.00951.
+https://doi.org/10.48550/arXiv.2604.00951
 
 Eklund, A., Nichols, T. E., and Knutsson, H. (2016). Cluster failure: why fMRI inferences
 for spatial extent have inflated false-positive rates. PNAS, 113(28), 7900-7905.
+https://doi.org/10.1073/pnas.1602413113
 
 Hinrichs, C., Ithapu, V. K., Sun, Q., Johnson, S. C., and Singh, V. (2013). Speeding up
 permutation testing in neuroimaging. NeurIPS, 26, 890-898.
 
 Nichols, T. E., and Holmes, A. P. (2002). Nonparametric permutation tests for functional
-neuroimaging. Human Brain Mapping, 15(1), 1-25.
+neuroimaging. Human Brain Mapping, 15(1), 1-25. https://doi.org/10.1002/hbm.1058
 
 Suzuki, Y., Uno, S., Raymond, R., Tanaka, T., Onodera, T., and Yamamoto, N. (2020).
 Amplitude estimation without phase estimation. Quantum Information Processing, 19, 75.
+https://doi.org/10.1007/s11128-019-2565-2
 
 Winkler, A. M., Ridgway, G. R., Webster, M. A., Smith, S. M., and Nichols, T. E. (2014).
 Permutation inference for the general linear model. NeuroImage, 92, 381-397.
+https://doi.org/10.1016/j.neuroimage.2014.01.060
 
 ## Citation and license
 
