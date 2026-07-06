@@ -1,0 +1,9 @@
+^data-raw$
+^LICENSE\.md$
+^\.github$
+^.*\.Rproj$
+^\.Rproj\.user$
+^inst/figures$
+^README\.md$
+^inst/python/__pycache__$
+^CITATION\.cff$

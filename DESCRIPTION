@@ -1,0 +1,25 @@
+Package: qperm
+Type: Package
+Title: Quantum-Accelerated Sign-Flip Permutation Inference for Neuroimaging
+Version: 0.1.0
+Authors@R: person("Kiju", "Lee", email = "kiju.lee22@gmail.com", role = c("aut", "cre"))
+Description: One-sample and paired sign-flip permutation tests for group neuroimaging
+    data with family-wise-error corrected p-values, offering a proposed quantum
+    amplitude-estimation estimator alongside the classical permutation test. The quantum
+    estimator is emulated in pure R and can optionally be run as real quantum circuits
+    through 'Qiskit' via 'reticulate'. It is a simulation and a query-complexity
+    demonstration, not a runtime speedup on classical hardware. Extends the quantum
+    statistical bootstrap framework of Chen, Ma and Zhong (2026)
+    <doi:10.48550/arXiv.2604.00951> to the max-over-voxels and cluster-extent statistics
+    used for family-wise error control in functional MRI.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1)
+Imports: stats, graphics, utils
+Suggests: reticulate, RNifti, testthat (>= 3.0.0)
+URL: https://github.com/kikijuki/qperm
+BugReports: https://github.com/kikijuki/qperm/issues
+Config/testthat/edition: 3
+Roxygen: list(markdown = FALSE)
+Config/roxygen2/version: 8.0.0

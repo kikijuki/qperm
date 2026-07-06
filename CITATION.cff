@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "qperm: Quantum-Accelerated Sign-Flip Permutation Inference for Neuroimaging"
+abstract: >-
+  An R package for one-sample and paired sign-flip permutation tests on group neuroimaging
+  data with family-wise-error corrected p-values, offering a proposed quantum
+  amplitude-estimation estimator alongside the classical permutation test. The quantum
+  estimator is emulated in pure R and can optionally run as real quantum circuits through
+  Qiskit. It is a query-complexity demonstration verified against exact ground truth, not a
+  runtime speedup on classical hardware. Extends the quantum statistical bootstrap of Chen,
+  Ma and Zhong (2026) to the max-over-voxels and cluster-extent statistics used for
+  family-wise error control in functional MRI.
+type: software
+authors:
+  - family-names: Lee
+    given-names: Kiju
+    email: kiju.lee22@gmail.com
+    affiliation: Yonsei University
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/kikijuki/qperm"
+keywords:
+  - permutation testing
+  - quantum amplitude estimation
+  - neuroimaging
+  - fMRI
+  - family-wise error rate
+  - R package
